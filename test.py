@@ -1,3 +1,3 @@
-bicycles = ['a', 'b', 'c', 'd']
+bicycles = ['a', 'b', 'f', 'c', 'd']
 print(bicycles)
-print(bicycles[-4])
+print(sorted(bicycles, reverse=True))
